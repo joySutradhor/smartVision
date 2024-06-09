@@ -1,0 +1,104 @@
+.myCard {
+    margin: 0px;
+    border-radius: 15px;
+
+
+}
+
+.myCard img {
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+.details p {
+    font-family: "Alata", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #4A4A4B;
+}
+
+@media only screen and (max-width: 600px) {
+    .slider-myCard {
+        border-radius: 10px;
+    }
+
+    .slider-myCard img {
+        width: 100%;
+        height: 206px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .slider-details {
+        text-align: center;
+        padding: 8px;
+    }
+
+    .slider-details h6 {
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 700;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .slider-details p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 150%;
+        text-align: center;
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+    }
+    .photo-gellery-img {
+        width: 100dvw;
+        height: 180px;
+        object-fit: cover;
+        
+    }
+}
+
+
+
+
+
+
+/* ======== Large devices (laptops/desktops, 769px to 992px) ========= */
+@media only screen and (min-width:766px) and (max-width: 992px) {
+    .photo-gellery-img {
+        width: 100dvw;
+        height: 180px;
+        object-fit: cover;
+        
+    }
+}
+
+/* ====== Extra large devices (large laptops and desktops, 993px to 1200px) ====== */
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+    .photo-gellery-img {
+        width: 100dvw;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+/* ====== Extra large devices (1400px and up if need) ====== */
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+    .photo-gellery-img {
+        width: 100dvw;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+/* ====== Extra large devices (1400px and up if need) ====== */
+@media only screen and (min-width: 1502px) and (max-width: 2500px) {
+    .photo-gellery-img {
+        width: 100dvw;
+        height: 490px;
+        object-fit: cover;
+    }
+}

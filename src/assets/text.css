@@ -1,0 +1,20 @@
+
+/* ========= Medium devices (landscape tablets, 601px to 768px) ========== */
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    
+} 
+  
+/* ======== Large devices (laptops/desktops, 769px to 992px) ========= */
+  @media only screen and (min-width:769px) and (max-width: 992px) {
+   
+} 
+  
+/* ====== Extra large devices (large laptops and desktops, 993px to 1200px) ====== */
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+   
+}
+
+/* ====== Extra large devices (1400px and up if need) ====== */
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+    
+} 

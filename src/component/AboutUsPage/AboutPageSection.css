@@ -1,0 +1,187 @@
+.aboutHeroImg {
+    height: 764px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px !important;
+
+   
+}
+
+.sectionParent {
+    padding-left: 100px;
+}
+
+.imageSpace {
+    padding-left: 69px;
+
+}
+
+
+
+
+
+
+/* ============== small devices ============== */
+@media only screen and (max-width: 600px) {
+
+    .sectionParent {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    p {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22.5px;
+        text-align: justify;
+
+    }
+
+    .aboutHeroImg {
+        height: 264px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .imageSpace {
+        padding-left: 0px;
+        padding-top: 35px;
+    }
+
+    .sectionParent {
+        display: flex;
+        flex-direction: column-reverse;
+        /* Stack items vertically on smaller screens */
+    }
+
+    .aboutTitleMobile {
+        padding-bottom: 15px;
+    }
+
+
+
+}
+
+
+
+/* ========= Medium devices (landscape tablets, 601px to 768px) ========== */
+@media only screen and (min-width:768px) {
+
+
+    .sectionParent {
+        padding-left: 40px;
+    }
+
+    .aboutHeroImg {
+        height: 304px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px 0px 0px 5px;
+        /* padding-bottom: 15px; */
+    }
+
+    .sectionParent {
+        padding-left: 4.4%;
+    }
+
+    .imageSpace {
+        padding-left: 4.4%;
+
+    }
+
+
+}
+
+/* ======== Large devices (laptops/desktops, 769px to 992px) ========= */
+@media only screen and (min-width: 992px) {
+    .sectionParent {
+        padding-left: 40px;
+    }
+
+    .aboutHeroImg {
+        height: 304px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px 0px 0px 10px;
+        /* padding-bottom: 15px; */
+    }
+
+    .sectionParent {
+        padding-left: 4.4%;
+    }
+
+    .imageSpace {
+        padding-left: 4.4%;
+
+    }
+}
+
+/* ====== Extra large devices (1400px and up if need) ====== */
+@media only screen and (min-width: 1200px) {
+
+
+
+    .heroSubText {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 23px;
+        text-align: justify;
+
+    }
+
+    .aboutHeroImg {
+        height: 364px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 15px 0px 0px 15px;
+        padding: 0;
+    }
+
+    .sectionParent {
+        padding-left: 4.4%;
+    }
+
+    .imageSpace {
+        padding-left: 4.4%;
+
+    }
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
+    .aboutHeroImg {
+        height: 764px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 0px 0px 20px;
+        padding: 0;
+    }
+
+    .sectionParent {
+        padding-left: 100px;
+    }
+
+    .imageSpace {
+        padding-left: 69px;
+
+    }
+
+    .heroSubText {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: justify;
+
+    }
+
+   
+    }

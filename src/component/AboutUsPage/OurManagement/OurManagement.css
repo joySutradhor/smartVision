@@ -1,0 +1,54 @@
+.topRowSpace {
+    margin-top: 60px;
+}
+
+.card:hover h3 {
+    color: white;
+}
+
+.card:hover span {
+    color: white;
+}
+
+.card:hover .team-social {
+    color: white;
+}
+
+/* for mobile device responsive  */
+
+@media only screen and (max-width: 600px) {
+
+
+    .arrow-button-management {
+        cursor: pointer;
+        position: absolute;
+        top: 55%;
+        left: -12%;
+        z-index: 50;
+        height: 50px;
+
+    }
+
+    .arrow-button-management2 {
+        cursor: pointer;
+        position: absolute;
+        top: 55%;
+        right: -12%;
+        z-index: 50;
+        height: 50px;
+    }
+}
+
+
+/* manageTopSpaceGap */
+@media only screen and (min-width: 1200px) {
+    .manageTopSpaceGap {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .manageTopSpaceGap {
+        margin-top: 180px;
+    }
+}

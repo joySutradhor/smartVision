@@ -1,0 +1,240 @@
+.gallaryParentSlider {
+    position: relative;
+}
+
+.gallarysliderImg {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .arrow-button-mobile-gallary {
+
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 37.5%;
+        left: -1.5%;
+        z-index: 50;
+        height: 50px;
+
+    }
+
+    .arrow-button-mobile-gallary2 {
+
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 37.5%;
+        right: -1.1%;
+        z-index: 50;
+        height: 50px;
+
+
+    }
+
+    .gallarysliderImg {
+        height: 165px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .arrow-button-large-gallary {
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 37%;
+        left: 1%;
+        z-index: 50;
+        height: 80px;
+    }
+
+    .arrow-button-large-gallary2 {
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 37%;
+        right: 1.8%;
+        z-index: 50;
+        height: 80px;
+
+    }
+
+    .gallarysliderImg {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .gallaryParentSlider {
+        margin-top: 30px;
+    }
+
+
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .gallarysliderImg {
+        height: 320px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .gallaryParentSlider {
+        margin-top: 50px;
+    }
+    .arrow-button-large-gallary {
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 43%;
+        left: .6%;
+        z-index: 50;
+        height: 80px;
+    }
+
+    .arrow-button-large-gallary2 {
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 43%;
+        right: 1.5%;
+        z-index: 50;
+        height: 80px;
+
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .sectionSpace {
+        padding-top: 100px !important;
+    }
+
+    .gallarysliderImg {
+        height: 520px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .arrow-button-large-gallary {
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 43%;
+        left: 0%;
+        z-index: 50;
+        height: 90px;
+    }
+
+    .arrow-button-large-gallary2 {
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 43%;
+        right: .5%;
+        z-index: 50;
+        height: 90px;
+
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .sectionSpace {
+        padding-top: 100px !important;
+    }
+
+    .gallarysliderImg {
+        height: 520px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .arrow-button-large-gallary {
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 43%;
+        left: 0%;
+        z-index: 50;
+        height: 90px;
+    }
+
+    .arrow-button-large-gallary2 {
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 43%;
+        right: .5%;
+        z-index: 50;
+        height: 90px;
+
+    }
+}
+
+
+
+@media (min-width: 1535px) {
+
+    .arrow-button-large-gallary {
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 43%;
+        left: -.4%;
+        z-index: 50;
+        height: 104px;
+    }
+
+    .arrow-button-large-gallary2 {
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 43%;
+        right: 0%;
+        z-index: 50;
+        height: 104px;
+
+    }
+
+    .gallarysliderImg {
+        height: 889px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .sliderBtn {
+        background: none;
+        background: none;
+        border: none;
+        border-radius: 9999px;
+        display: inline-flex;
+        align-items: center;
+        margin: -9px 0px 0px 2px;
+
+    }
+
+
+
+    .sectionSpace {
+        padding-top: 200px !important;
+    }
+}

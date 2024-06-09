@@ -1,0 +1,450 @@
+.CheckBtn{
+    color: green;
+    font-size: 20px;
+}
+
+
+.home-accordion{
+    margin: -12px 0 0 0;
+}
+
+/* ==== trac record design chage === */
+
+.trac-left{
+   
+    padding: 0 109px 0 0;
+}
+.trac-left p{
+    margin: 50px 0;
+}
+.trac-right{
+    padding: 0 0 0 109px;
+}
+.trac-top-image{
+    margin: 0px 0 30px 0;
+    width: 749px;
+    height: 417px;
+}
+/* === trac page desing chage end === */
+
+.trac-records-img:hover {
+    transform: scale(104%);
+    overflow: hidden; 
+}
+
+.accordion{
+    border-radius: 10px !important;
+}
+
+.acco-tittle{
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #121214;
+    font-weight: bold;
+    width: 100%;
+}
+.acco-sub-tittle{
+    font-family: "Alata", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    color: #FFFFFF;
+
+}
+.acco-status,.acco-date{
+    font-family: "Alata", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+
+
+}
+.acco-dec{
+    font-family: "Alata", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #4A4A4B;
+    padding: 0px 55px 0px 10px;
+}
+.aco-img-box{
+    display: flex;
+    /* justify-content: flex-end; */
+}
+.acco-img{
+    width: 102px !important;
+    height: 51px;
+    object-fit:contain !;
+
+}
+
+.accordion-button {
+background-color: #EAEBED !important;
+box-shadow: 0 !important;
+}
+.accordion-item {
+    background-color: #EAEBED !important;
+    border: 0px !important;
+    margin: 15px 0;
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
+.accordion-button:focus {
+    box-shadow:none !important;
+}
+.accordion-button:not(.collapsed) {
+    /* color: var(--bs-accordion-active-color);
+    background-color: var(--bs-accordion-active-bg); */
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 #EAEBED !important;
+}
+
+.accordion-button::after {
+    background-image: url(../../../assets//images/Vectordawn.png);
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../../../assets//images/Vectordawn.png);
+}
+
+/* ====== small device ========== */
+@media only screen and (max-width: 600px) {
+
+    /* ==== trac record design chage === */
+    br{
+        display: none;
+    }
+    .trac-left{
+        padding: 0 10px;
+    }
+    .trac-left p{
+        margin: 20px 0 40px;
+    }
+    .trac-right{
+        padding: 0 10px;
+        margin: 0px 0 0px !important;
+    }
+    .trac-top-image{
+        margin: 5px 0 14px 0;
+        height: auto;
+    }
+    /* === trac page desing chage end === */
+
+
+
+    .accordion{
+        border-radius: 10px !important;
+    }
+    
+    .acco-tittle{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .acco-sub-tittle{
+        font-size: 10px;
+        line-height: 10px;
+    
+    }
+    .acco-status,.acco-date{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .acco-dec{
+        font-size: 8px;
+        line-height: 12px;
+        padding: 0px 20px 0px 2px;
+    }
+    
+    .acco-img{
+        width: 40px;
+        height: 20px;
+    
+    }
+    
+    .accordion-item {
+        margin: 0px 0 10px 0;
+    }
+   
+    .accordion-button::after {
+        background-image: url(../../../assets//images/mobileDawnArro.png);
+        background-position: center !important;
+        background-size: auto !important;
+    }
+    .accordion-button:not(.collapsed)::after {
+        background-image: url(../../../assets//images/mobileUpperArro.png);
+        background-position: center !important;
+        background-size: auto !important;
+    }
+    
+}
+
+
+/* ========= Medium devices (landscape tablets, 601px to 768px) ========== */
+@media only screen and (min-width: 601px) and (max-width:768px) {
+
+     /* ==== trac record design chage === */
+br{
+    display: none;
+}
+.trac-left{
+    padding: 0 0px 0 0;
+}
+.trac-left p{
+    margin: 20px 0 40px;
+}
+.trac-right{
+    margin: 0px 0 30px !important;
+    padding-left: 0;
+}
+.trac-top-image{
+    margin: 0px 0 15px 0;
+    height: auto;
+}
+/* === trac page desing chage end === */
+
+
+    .acco-tittle{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .acco-sub-tittle{
+        font-size: 15px;
+        line-height: 15px;
+    
+    }
+    .acco-status,.acco-date{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .acco-dec{
+        font-size: 10px;
+        line-height: 12px;
+        padding: 0px 20px 0px 0px;
+    }
+    
+    .acco-img{
+        width: 50px;
+        height: 30px;
+        object-fit: cover;
+    }
+    
+    .accordion-item {
+        margin: 0px 0 12px 0;
+    }
+   
+    .accordion-button::after {
+        background-image: url(../../../assets//images/mobileDawnArro.png);
+        background-position: center !important;
+        background-size: auto !important;
+    }
+    .accordion-button:not(.collapsed)::after {
+        background-image: url(../../../assets//images/mobileUpperArro.png);
+        background-position: center !important;
+        background-size: auto !important;
+    }
+} 
+  
+/* ======== Large devices (laptops/desktops, 769px to 992px) ========= */
+  @media only screen and (min-width:769px) and (max-width: 992px) {
+
+
+
+    .trac-left{
+        padding: 0 0px 0 0;
+    }
+    .trac-left p{
+        margin: 20px 0 30px;
+    }
+    .trac-right{
+        padding: 0 0 0 0px;
+    }
+    .trac-top-image{
+        margin: 0px 0 15px 0;
+        height: auto;
+    }
+
+
+    .acco-tittle{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .acco-sub-tittle{
+        font-size: 17px;
+        line-height: 17px;
+    
+    }
+    .acco-status,.acco-date{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .acco-dec{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 0px 10px 0px 0px;
+        text-align: justify;
+    }
+    
+    .acco-img{
+        width: 60px;
+        height: 40px;
+        object-fit: cover;
+    }
+    
+    .accordion-item {
+        margin: 0px 0 15px 0;
+    }
+   
+    .accordion-button::after {
+        background-image: url(../../../assets//images/mobileDawnArro.png);
+        background-position: center !important;
+        background-size: auto !important;
+    }
+    .accordion-button:not(.collapsed)::after {
+        background-image: url(../../../assets//images/mobileUpperArro.png);
+        background-position: center !important;
+        background-size: auto !important;
+    }
+   
+} 
+  
+/* ====== Extra large devices (large laptops and desktops, 993px to 1200px) ====== */
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+
+     /* ==== trac record design chage === */
+
+.trac-left{
+    padding: 0 0px 0 0;
+}
+.trac-left p{
+    margin: 50px 0;
+}
+.trac-right{
+    margin: 0px 0 0 0px;
+   padding: 0 0 0 0px
+}
+.trac-top-image{
+    margin: 0px 0 15px 0;
+    height: auto;
+}
+/* === trac page desing chage end === */
+
+
+    .acco-tittle{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .acco-sub-tittle{
+        font-size: 17px;
+        line-height: 22px;
+    
+    }
+    .acco-status,.acco-date{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .acco-dec{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 0px 10px 0px 0px;
+        /* text-align: justify; */
+    }
+    
+    /* .acco-img{
+        width: 60px;
+        height: 40px;
+    }
+     */
+    .accordion-item {
+        margin: 0px 0 15px 0;
+    }
+   
+
+   
+}
+
+/* ====== Extra large devices (1400px and up if need) ====== */
+@media only screen and (min-width: 1201px) and (max-width: 1370px) {
+
+    /* ==== trac record design chage === */
+
+.trac-left{
+    padding: 0 70px 0 0;
+}
+.trac-left p{
+    margin: 50px 0;
+}
+.trac-right{
+    padding: 0 0 0 70px;
+}
+.trac-top-image{
+    margin: 0px 0 15px 0;
+    height: 283px;
+}
+/* === trac page desing chage end === */
+
+
+    .home-accordion{
+        margin: -25px 0 0 0;
+    }
+    .acco-date{
+     padding: 0 0 0 20px;
+    }
+    .acco-dec{
+        font-family: "Alata", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        color: #4A4A4B;
+        padding: 0px 5px 0px 10px;
+    }
+    .mb-md-5{
+        padding-bottom: 1rem;
+    }
+} 
+/* ====== Extra large devices (1400px and up if need) ====== */
+@media only screen and (min-width: 1371px) and (max-width: 1500px) {
+
+
+/* ==== trac record design chage === */
+
+.trac-left{
+    padding: 0 70px 0 0;
+}
+.trac-left p{
+    margin: 50px 0;
+}
+.trac-right{
+    padding: 0 0 0 70px;
+}
+.trac-top-image{
+    margin: 0px 0 15px 0;
+    height: 300px;
+}
+/* === trac page desing chage end === */
+
+
+    .home-accordion{
+        margin: -5px 0 0 0;
+    }
+    
+    .acco-date{
+     padding: 0 0 0 20px;
+    }
+    .acco-dec{
+        font-family: "Alata", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        color: #4A4A4B;
+        padding: 0px 5px 0px 10px;
+    }
+    .mb-md-5{
+        padding-bottom: 4rem;
+    }
+} 

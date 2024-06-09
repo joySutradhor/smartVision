@@ -1,0 +1,16 @@
+.service{
+    text-align: justify;
+}
+
+
+
+.small-device{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@media only screen  and (max-width:700px){
+
+    .small-device{
+        border-radius: 10px;
+    }
+}

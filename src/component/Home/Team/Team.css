@@ -1,0 +1,375 @@
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17.8px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    transition: all .4s linear;
+    /* z-index: 20; */
+}
+
+.team {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: -100px 0 0 107px;
+    z-index: -22;
+
+
+}
+
+.red-curcle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: -10px 0px 0px 0px;
+    z-index: -11;
+}
+
+.team-member {
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+    margin: -200px 0px 0px 120px;
+
+}
+
+.team-social {
+    font-size: 40px;
+    margin: 15px;
+    color: #441355
+}
+
+.space {
+    margin: 0 0px 0px 0;
+}
+
+@media only screen and (max-width:600px) {
+
+
+    .red-curcle {
+        transform: translate(-26%, -6%);
+    }
+
+    .team-member {
+        margin: -200px 0px 0px 120px;
+
+    }
+
+    .team-social {
+        font-size: 20px;
+        margin: 5px 7px 20px;
+
+    }
+
+
+
+
+    /* ========= team card slider for mobile ========= */
+
+    .slider-parents {
+        margin: 0 5px;
+    }
+
+    .slider-card {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 9px;
+        margin: 160px 10px -95px 0px;
+        position: relative;
+
+
+    }
+
+    .main-box {
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -50%;
+        height: 163px;
+        border-radius: 9px;
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .box1 {
+        position: relative;
+        z-index: -4;
+    }
+
+    .box1 img {
+        width: 135px;
+        height: 135px;
+        border-radius: 100%;
+
+    }
+
+    .box2 {
+        position: absolute;
+
+    }
+
+    .box2 img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        margin: 8px 0 0 0;
+    }
+
+
+
+
+
+
+    .text-div {
+        margin: -70px 0px 0px 0px;
+        padding: 50px 0 0 0;
+    }
+
+    .slider-team-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        margin: 10px 0px 5px 0px;
+    }
+
+    .slider-team-des {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        margin: 0px 0 0 0;
+        padding: 0px 0px 15px 0px;
+        text-align: center;
+    }
+
+    .arrow-button-ourTeam {
+        cursor: pointer;
+        position: absolute;
+        top: 58%;
+        right: -10%;
+        z-index: 50;
+        height: 50px;
+    }
+
+    .arrow-button-ourTeam2 {
+        cursor: pointer;
+        position: absolute;
+        top: 58%;
+        left: -10%;
+        z-index: 50;
+        height: 50px;
+    }
+
+}
+
+
+/* ========= Medium devices (landscape tablets, 601px to 768px) ========== */
+@media only screen and (min-width: 601px) and (max-width:768px) {
+    .our-team {
+        margin-bottom: -100px;
+    }
+
+    .team {
+        width: auto;
+        height: auto;
+        margin: -100px 0 0 105px;
+        z-index: -22;
+
+
+    }
+
+    .red-curcle {
+        transform: translate(-26%, -6%);
+    }
+
+    .team-member {
+        margin: -200px auto 0;
+
+    }
+
+    .team-social {
+        font-size: 30px;
+        margin: 10px;
+
+    }
+
+    .space {
+        margin-bottom: 150px;
+    }
+
+
+}
+
+/* ======== Large devices (laptops/desktops, 769px to 992px) ========= */
+@media only screen and (min-width:769px) and (max-width: 992px) {
+    .team {
+        width: auto;
+        height: auto;
+        margin: -100px 0 0 105px;
+        z-index: -22;
+
+
+    }
+
+    .red-curcle {
+        transform: translate(-26%, -6%);
+    }
+
+    .team-member {
+        margin: -200px auto 0;
+
+    }
+
+    .team-social {
+        font-size: 30px;
+        margin: 10px;
+
+    }
+
+    .space {
+        margin-bottom: 150px !important;
+    }
+
+}
+
+/* ====== Extra large devices (large laptops and desktops, 993px to 1200px) ====== */
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+    .our-team {
+        margin-bottom: -50px;
+    }
+
+    .team {
+        width: auto;
+        height: auto;
+        margin: -100px 0 0 105px;
+
+    }
+
+    .red-curcle {
+        transform: translate(-26%, -6%);
+    }
+
+    .team-member {
+        margin: -200px auto 0;
+
+    }
+
+    .team-social {
+        font-size: 30px;
+        margin: 10px;
+
+    }
+
+    .space {
+        margin-bottom: 150px !important;
+    }
+
+}
+
+@media only screen and (min-width:1201px) and (max-width: 1350px) {
+    .our-team {
+        margin-bottom: -50px;
+    }
+
+    .team {
+        width: auto;
+        height: auto;
+        margin: -100px 0 0 105px;
+
+    }
+
+    .red-curcle {
+        transform: translate(-35%, -6%);
+    }
+
+    .team-member {
+        margin: -200px auto 0;
+
+    }
+
+    .team-social {
+        font-size: 30px;
+        margin: 10px;
+
+    }
+
+    .space {
+        margin-bottom: 150px !important;
+    }
+
+}
+
+/* ====== Extra large devices (1400px and up if need) ====== */
+@media only screen and (min-width: 1351px) and (max-width: 1400px) {
+    .our-team {
+        margin-bottom: -50px;
+    }
+
+    .team {
+        width: auto;
+        height: auto;
+        margin: -100px 0 0 105px;
+
+
+    }
+
+    .red-curcle {
+        transform: translate(-30%, -6%);
+    }
+
+    .team-member {
+        margin: -200px auto 0;
+
+    }
+
+    .team-social {
+        font-size: 30px;
+        margin: 10px;
+
+    }
+
+    .space {
+        margin-bottom: 150px !important;
+    }
+
+    .team-des {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1500px) {
+    .our-team {
+        margin-bottom: -50px;
+    }
+
+    .team {
+        width: auto;
+        height: auto;
+        margin: -100px 0 0 105px;
+
+
+    }
+
+    .red-curcle {
+        transform: translate(-26%, -6%);
+    }
+
+    .team-member {
+        margin: -200px auto 0;
+
+    }
+
+    .team-social {
+        font-size: 30px;
+        margin: 10px;
+
+    }
+
+    .space {
+        margin-bottom: 150px !important;
+    }
+
+    .team-des {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,10 @@
+
+
+.themantic-areas-img {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.themantic-areas-img:hover {
+    transform: scale(.98);
+    overflow: hidden; 
+}

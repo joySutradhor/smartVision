@@ -1,0 +1,231 @@
+.aboutUsSliderParent {
+    position: relative;
+}
+
+
+@media (max-width: 600px) {
+
+    .arrow-button-aboutSlider-mobile {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        right: -0.8%;
+        z-index: 50;
+        height: 50px;
+    }
+
+    .arrow-button-aboutSlider-mobile2 {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        left: -0.8%;
+        z-index: 50;
+        height: 50px;
+
+    }
+
+    .ourWorkImgOne {
+        height: 158px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+
+}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+    .arrow-button-aboutSlider-Large {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        left: 0.4%;
+        z-index: 50;
+        height: 80px;
+    }
+
+    .arrow-button-aboutSlider-Large2 {
+
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        right: 0.8%;
+        z-index: 50;
+        height: 80px;
+    }
+
+    .ourWorkImgOne {
+        height: 250px;
+        /* width: 518.39px; */
+        padding-top: 0px;
+        padding-bottom: 0px;
+        object-fit: cover;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 15px;
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .ourWorkImgOne {
+        height: 180px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 10px;
+
+    }
+
+    .arrow-button-aboutSlider-Large {
+        cursor: pointer;
+        position: absolute;
+        top: 35%;
+        left: 0.4%;
+        z-index: 50;
+        height: 80px;
+    }
+
+    .arrow-button-aboutSlider-Large2 {
+
+        cursor: pointer;
+        position: absolute;
+        top: 35%;
+        right: 0.8%;
+        z-index: 50;
+        height: 80px;
+    }
+}
+
+/* --------------- for 1366px large devices ------------- */
+@media (min-width: 1200px) {
+
+    .arrow-button-aboutSlider-Large {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        left: 0.4%;
+        z-index: 50;
+        height: 90px;
+    }
+
+    .arrow-button-aboutSlider-Large2 {
+
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        right: 0.8%;
+        z-index: 50;
+        height: 90px;
+    }
+
+    .ourWorkImgOne {
+        height: 250px;
+        /* width: 518.39px; */
+        padding-top: 0px;
+        padding-bottom: 0px;
+        object-fit: cover;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 20px;
+
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    .arrow-button-aboutSlider-Large {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        left: 0.4%;
+        z-index: 50;
+        height: 90px;
+    }
+
+    .arrow-button-aboutSlider-Large2 {
+
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        right: 0.8%;
+        z-index: 50;
+        height: 90px;
+    }
+
+    .ourWorkImgOne {
+        height: 250px;
+        /* width: 518.39px; */
+        padding-top: 0px;
+        padding-bottom: 0px;
+        object-fit: cover;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 20px;
+
+    }
+
+}
+
+/* --------------- for 1536px large devices ------------- */
+@media (min-width: 1536px) {
+
+    .arrow-button-aboutSlider-Large {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        left: 0.2%;
+        z-index: 50;
+        height: 104px;
+    }
+
+    .arrow-button-aboutSlider-Large2 {
+
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        right: 0.2%;
+        z-index: 50;
+        height: 104px;
+    }
+
+    .slick-active {
+        padding: 0px;
+    }
+
+    .ourWorkImgOne {
+        height: 378px;
+        width: 518.39px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        object-fit: cover;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 35px;
+
+    }
+
+    .sliderBtn {
+        background: rgb(251, 71, 56);
+        background: linear-gradient(90deg, rgba(251, 71, 56, 1) 0%, rgba(254, 125, 21, 1) 35%);
+        border: 10px solid white;
+        border-radius: 9999px;
+
+    }
+
+    .bootomSpaceAboutUsSlider {
+        padding-bottom: 100px;
+    }
+
+}

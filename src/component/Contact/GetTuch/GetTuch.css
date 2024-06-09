@@ -1,0 +1,198 @@
+.contact {}
+
+.contact p {
+    font-family: "Alata", sans-serif;
+    text-align: justify;
+}
+
+input {}
+
+.form-control {
+    border: 2px solid #00000080;
+    padding: 22px;
+    height: 88px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 0 0 35px 0;
+
+}
+
+::placeholder {
+    font-family: "Alata", sans-serif;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+textarea {
+    height: 158px;
+    border: 2px solid #00000080;
+    padding: 22px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 0 0 35px 0;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        padding: 0 3%;
+    }
+
+    .contact p {
+        font-family: "Alata", sans-serif;
+        text-align: justify;
+    }
+
+    input {}
+
+    .form-control {
+        border: 1px solid #00000080;
+        padding: 12px;
+        height: 35px;
+        border-radius: 5px;
+        font-size: 10px;
+        margin: 0 0 15px 0;
+    }
+
+    ::placeholder {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    textarea {
+        height: 62px;
+        border: 1px solid #00000080;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 10px;
+        margin: 0 0 15px 0;
+    }
+}
+
+
+/* ========= Medium devices (landscape tablets, 601px to 768px) ========== */
+@media only screen and (min-width: 601px) and (max-width:768px) {
+    .contact {
+        padding: 0 0%;
+    }
+
+    .contact p {
+        font-family: "Alata", sans-serif;
+        text-align: justify;
+    }
+
+    .form-control {
+        border: 2px solid #00000080;
+        padding: 15px;
+        height: 45px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 0 0 15px 0;
+    }
+
+    ::placeholder {
+        font-size: 16px;
+        line-height: 12px;
+    }
+
+    textarea {
+        height: 72px;
+        border: 2px solid #00000080;
+        padding: 13px;
+        font-size: 16px;
+        margin: 0 0 20px 0;
+    }
+}
+
+/* ======== Large devices (laptops/desktops, 769px to 992px) ========= */
+@media only screen and (min-width:769px) and (max-width: 992px) {
+    .contact {
+        padding: 0 0%;
+    }
+
+    .contact p {
+        font-family: "Alata", sans-serif;
+        text-align: justify;
+    }
+
+    .form-control {
+        padding: 20px;
+        height: 50px;
+        font-size: 18px;
+        margin: 0 0 20px 0;
+    }
+
+    ::placeholder {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    textarea {
+        height: 90px;
+        border: 2px solid #00000080;
+        padding: 20px;
+        font-size: 18px;
+        margin: 0 0 20px 0;
+    }
+}
+
+/* ====== Extra large devices (large laptops and desktops, 993px to 1200px) ====== */
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+    .contact {
+        padding: 0 0%;
+    }
+
+
+
+    .form-control {
+        padding: 20px;
+        height: 50px;
+        font-size: 20px;
+        margin: 0 0 20px 0;
+    }
+
+    ::placeholder {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    textarea {
+        height: 100px;
+        border: 2px solid #00000080;
+        padding: 20px;
+        font-size: 20px;
+        margin: 0 0 20px 0;
+    }
+}
+
+/* ====== Extra large devices (1400px and up if need) ====== */
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+    .contact p {
+        font-family: "Alata", sans-serif;
+    }
+
+    .form-control {
+
+        height: 80px;
+        border-radius: 8px;
+        font-size: 25px;
+        margin: 0 0 30px 0;
+
+    }
+
+    ::placeholder {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    textarea {
+        height: 145px;
+        border-radius: 8px;
+        font-size: 25px;
+        margin: 0 0 30px 0;
+        width: 100%;
+    }
+}

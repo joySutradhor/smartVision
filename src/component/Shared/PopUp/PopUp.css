@@ -1,0 +1,42 @@
+.modal-content{
+    padding: 25px;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+.btn-close{
+    border: linear-gradient(261.79deg, #FE7D15 2.09%, #FB4738 98.76%) !important;
+  border-radius: 100px;
+  color:black !important;
+  display: none;
+}
+.modal-title{
+    display: inline-block;
+}
+.close-button{
+    width: 40px;
+    height: 40px;
+    background: #FB4738 98.76% ;;
+    border: 0;
+    border-radius: 100%;
+    font-size: 25px;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .modal-content{
+        padding: 10px 5px;
+    }
+    .close-button{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        font-size: 18px;
+        color: white;
+    }
+}

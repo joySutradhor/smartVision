@@ -1,0 +1,25 @@
+
+
+/* about-column-gap */
+
+
+/* ======== Large devices (laptops/desktops, 769px to 992px) ========= */
+@media only screen and (min-width:768px) and (max-width: 992px) {
+   .about-column-gap{
+    gap: 30px;
+   }
+} 
+  
+/* ====== Extra large devices (large laptops and desktops, 993px to 1200px) ====== */
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+    .about-column-gap{
+        gap: 3%;
+       }
+}
+
+/* ====== Extra large devices (1400px and up if need) ====== */
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+    .about-column-gap{
+        gap: 3%;
+       }
+} 

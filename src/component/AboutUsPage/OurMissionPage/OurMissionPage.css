@@ -1,0 +1,343 @@
+ .mission-space{
+        margin: 40px 0 10px 0;
+        display: inline-block;
+        text-align: left;
+    }
+
+
+@media only screen and (max-width:600px) {
+   
+   
+    .mission-space{
+        margin: 15px 0 0px 0;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .acco-tittle-mission-page {
+        font-family: "Roboto Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 25px;
+        color: #441355;
+
+    }
+
+    .acco-header-parent { 
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+
+    }
+    .tabBoxParrent{
+        overflow: scroll;
+    }
+
+    .mission-box-head{
+        font-family: "Roboto Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #441355;
+        /* text-align: center; */
+        padding-top: 10px ;
+        
+        
+    }
+    .mission-space{
+        padding: 40px 0 10px 0;
+        display: inline-block;
+        text-align: left;
+    }
+   
+
+}
+@media only screen and (min-width: 768px) {
+
+    .nav-pills .nav-link {
+        border-radius: 0;
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: #441355;
+    }
+
+    .nav-pills .nav-link {
+        background-color: #EAEBED;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+
+
+    .tabsTitle {
+        font-family: "Roboto Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
+        color: #441355;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .tabsTitle:hover {
+        color: #441355;
+    }
+
+    .nav-item:last-child {
+        padding: 0px;
+
+    }
+    .nav-item{
+        margin-right: 0px;
+    }
+
+    .tabBoxParrent {
+        background-color: #EAEBED;
+        margin-top: 15px;
+        height: 210px;
+        border-radius: 10px;
+        padding: 15px;
+        height: 228px;
+        overflow: scroll;
+       
+
+    }
+    .mission-box-head{
+        font-family: "Roboto Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #441355;
+        text-align: center;
+        padding: 30px 0 0 0;
+        display: inline-block; 
+    }
+    .mission-box-head:first-child{
+        padding: 10px 0 0 0;
+        display: inline-block; 
+    }
+    
+  
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .nav-pills .nav-link {
+        border-radius: 0;
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: #441355;
+    }
+
+    .nav-pills .nav-link {
+        background-color: #EAEBED;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+
+
+    .tabsTitle {
+        font-family: "Roboto Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
+        color: #441355;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .tabsTitle:hover {
+        color: #441355;
+    }
+
+    .nav-item:last-child {
+        padding: 0px;
+
+    }
+    .nav-item{
+        margin-right: 0px;
+    }
+
+    .tabBoxParrent {
+        background-color: #EAEBED;
+        margin-top: 15px;
+        height: 210px;
+        border-radius: 10px;
+        padding: 15px;
+        height: 228px;
+        overflow: scroll;
+    }
+    .mission-box-head{
+        font-family: "Roboto Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #441355;
+        padding: 30px 0 0 0;
+        display: inline-block; 
+    }
+    .mission-box-head:first-child{
+        padding: 0px 0 0 0;
+        display: inline-block; 
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .nav-pills .nav-link {
+        border-radius: 0;
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: #441355;
+    }
+
+    .nav-pills .nav-link {
+        background-color: #EAEBED;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+
+
+    .tabsTitle {
+        font-family: "Roboto Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
+        color: #441355;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .tabsTitle:hover {
+        color: #441355;
+    }
+
+    .nav-item:last-child {
+        padding: 0px;
+
+    }
+    .nav-item{
+        margin-right: 0px;
+    }
+
+    .tabBoxParrent {
+        background-color: #EAEBED;
+        margin-top: 15px;
+        height: 210px;
+        border-radius: 10px;
+        padding: 15px;
+        height: 230px;
+    }
+    .tabBoxParrent{
+        overflow: scroll;
+    }
+
+    .mission-box-head{
+        font-family: "Roboto Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        color: #441355;
+        padding: 40px 0 0 0;
+        display: inline-block; 
+    }
+    .mission-box-head:first-child{
+        padding: 20px 0 0 0;
+        display: inline-block; 
+    }
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
+
+    .nav-pills .nav-link {
+        border-radius: 0;
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: #441355;
+    }
+
+    .nav-pills .nav-link {
+        background-color: #EAEBED;
+        border-radius: 15px;
+        margin-top: 15px;
+    }
+
+
+
+    .tabsTitle {
+        font-family: "Roboto Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        color: #441355;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .tabsTitle:hover {
+        color: #441355;
+    }
+
+    .nav-item:last-child {
+        padding: 0px;
+
+    }
+
+    .tabBoxParrent {
+        background-color: #EAEBED;
+        margin-top: 15px;
+        height: 326px;
+        border-radius: 20px !important;
+        padding: 20px;
+        overflow: scroll;
+        height: 347px;
+    }
+    p {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+      
+      }
+
+      .mission-box-head{
+        font-family: "Roboto Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 40px;
+        color: #441355;
+        padding: 0px 0 0 0;
+        display: inline-block; 
+    }
+    .mission-box-head:first-child{
+        padding: 0px 0px 0px 0px;
+        display: inline-block; 
+    }
+    
+   
+}

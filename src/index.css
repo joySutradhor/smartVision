@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto+Condensed:wght@100..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.containe {
+  width: 91.5%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 100px;
+  color: #441355;
+}
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #441355;
+}
+h3{
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: #441355;
+}
+
+.gradient {
+  background: rgb(251, 71, 56);
+  background: linear-gradient(90deg, rgba(251, 71, 56, 1) 0%, rgba(254, 125, 21, 1) 35%);
+}
+
+a {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+p {
+  color: #4A4A4B;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+
+}
+
+.bg-primary{
+  background-color: #441355 !important;
+}
+.text-primary{
+  color: #441355 !important;
+}
+.bg-secondary{
+ background-color:#EAEBED !important;
+}
+.text-secondary{
+ background-color:#EAEBED !important;
+}
+/* section gap--- one section to bottom section gap */
+
+.sectionGap {
+  padding-top: 200px;
+}
+
+.justify{
+  text-align: justify !important;
+}
+
+.custom-button{
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 150%;
+  color: #FFFFFF;
+  background: linear-gradient(261.79deg, #FE7D15 2.09%, #FB4738 98.76%);
+  border-radius: 100px;
+  padding: 14px 25px !important;
+  border:  none;
+  width: auto;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(261.79deg, #FE7D15 2.09%, #FB4738 98.76%);
+ border-radius: 100px;
+ transition: all 0.3s linear;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  background: linear-gradient(261.79deg, #FB4738 2.09%, #FE7D15 98.76%);
+}
+
+/* ====== Extra small devices (phones, 600px and down) ====== */
+@media only screen and (max-width: 600px) {
+ 
+    /* width */
+    ::-webkit-scrollbar {
+      width: 5px;;
+    }
+
+  
+  .containe {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 7px;
+    }
+  h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+    
+  h2 {
+    font-size: 25px;
+    line-height: 34px;
+  }
+  h3{
+    font-size: 20px;
+    line-height: 24px;
+    }
+    
+  a {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+  }
+
+  .sectionGap {
+    padding-top: 50px;
+  }
+
+  .custom-button{
+    font-size: 15px;
+    line-height: 0px;
+    padding: 15px 25px !important;
+  }
+}
+
+
+/* ========= Medium devices (landscape tablets, 601px to 768px) ========== */
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    /* width */
+  ::-webkit-scrollbar {
+    width: 7px;;
+  }
+  h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+    
+  h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  h3{
+    font-size: 25px;
+    line-height:25px;
+    }
+    
+  a {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 23px;
+    text-align: justify;
+  }
+
+  .sectionGap {
+    padding-top: 60px !important;
+  }
+
+  .custom-button{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 13px 25px !important;
+  }
+} 
+  
+/* ======== Large devices (laptops/desktops, 769px to 992px) ========= */
+  @media only screen and (min-width:769px) and (max-width: 992px) {
+        /* width */
+  ::-webkit-scrollbar {
+    width: 10px;;
+  }
+    h1 {
+      font-size: 50px;
+      line-height: 55px;
+    }
+      
+    h2 {
+      font-size: 35px;
+      line-height: 40px;
+    }
+    h3{
+      font-size: 30px;
+      line-height:35px;
+      }
+      
+    a {
+      font-size: 20px;
+      line-height: 25px;
+    }
+  
+    p {
+      font-size: 18px;
+      line-height: 24px;
+      text-align: justify;
+    }
+  
+    .sectionGap {
+      padding-top: 70px !important;
+    }
+  
+    .custom-button{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 15px 30px !important;
+    }
+    
+} 
+  
+/* ====== Extra large devices (large laptops and desktops, 993px to 1200px) ====== */
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+      /* width */
+      ::-webkit-scrollbar {
+        width: 12px;;
+      }
+  h1 {
+    font-size: 60px;
+    line-height: 65px;
+  }
+    
+  h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  h3{
+    font-size: 35px;
+    line-height:40px;
+    }
+    
+  a {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .sectionGap {
+    padding-top: 80px !important;
+  }
+
+  .custom-button{
+    font-size: 17px;
+    line-height: 22px;
+    padding: 17px 34px !important;
+  }
+   
+}
+
+/* ====== Extra large devices (1500px and up if need) ====== */
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+    /* width */
+  ::-webkit-scrollbar {
+    width: 15px;;
+  }
+  h1 {
+    font-size: 65px;
+    line-height: 70px;
+  }
+    
+  h2 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  h3{
+    font-size: 40px;
+    line-height:45px;
+    }
+    
+  .sectionGap {
+    padding-top: 100px !important;
+  }
+
+  p {
+    color: #4A4A4B;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+  
+  }
+
+  .custom-button{
+    font-size: 18px;
+    line-height: 23px;
+    padding: 17px 34px !important;
+  }
+} 

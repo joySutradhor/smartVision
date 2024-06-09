@@ -1,0 +1,863 @@
+
+.card:hover .chooseUsInnerCardHeading {
+    color: white;
+}
+
+.card:hover p {
+    color: white;
+}
+
+
+/* for mobile device responsive  */
+
+@media only screen and (max-width: 600px) {
+
+    .sectionSpace {
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .cardTopIcon {
+        background-color: #D9D9D9;
+        padding: 0px;
+        height: 98px;
+        width: 98px;
+        border-radius: 100%;
+    
+    }
+
+    
+    .chooseUsInnerCardHeading {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 150%;
+        color: #441355;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    
+    }
+
+    .chooseUsSubHeading {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22.5px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        margin-bottom: 0px;
+    }
+
+    .arrow-button-chooseUs {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        left: -9%;
+        z-index: 50;
+        height: 50px;
+
+    }
+
+    .arrow-button-chooseUs2 {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        right: -9%;
+        z-index: 50;
+        height: 50px;
+    }
+
+    .card:hover {
+        background-color: #441355;
+        margin-top: 0px;
+        box-shadow: none;
+
+    }
+
+    .card {
+
+        margin-top: 0px;
+        box-shadow: none;
+
+
+    }
+
+    .cardWidth {
+        margin-top: 28px;
+
+    }
+
+    .chooseUsInnerCardPara1 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 41px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara2 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 41px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara3 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 61px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara4 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 61px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara5 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara6 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara7 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara8 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara9 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara10 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+        text-align: center;
+    }
+
+    .firstIcon {
+        font-size: 52px;
+        color: #441355;
+
+    }
+
+    .chooseUsParentTop {
+        margin-top: 60px;
+    }
+    .cardParentIcon {
+        margin-top: -50px;
+    }
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .sectionSpace {
+        padding-top: 100px;
+        padding-left: 4.4%;
+        padding-right: 4.4%;
+    }
+
+    .testimonialTopSapce{
+        padding-top: 0px;
+        margin-top: -30px;
+    }
+
+    .chooseUsSubHeading {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 23px;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        margin-bottom: 0px;
+    }
+
+
+
+    .card:hover {
+        background-color: #441355;
+        margin-top: -20px;
+        box-shadow: none;
+
+    }
+
+    .chooseUsInnerCardHeading {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 150%;
+        color: #441355;
+        margin-top: 25px;
+        margin-bottom: 10px;
+
+    }
+
+    .card {
+
+        margin-top: 0px;
+        box-shadow: none;
+
+
+    }
+
+    .cardTopIcon {
+        background-color: #D9D9D9;
+        padding: 0px;
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+
+    }
+
+    .cardParentIcon {
+        margin-top: -30px;
+    }
+
+    .cardWidth {
+        margin-top: 28px;
+
+    }
+
+    .chooseUsInnerCardPara1 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 41px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara2 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 41px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara3 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 41px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara4 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 61px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara5 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara6 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara7 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara8 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara9 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara10 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+        text-align: center;
+    }
+
+    .firstIcon {
+        font-size: 30px;
+        color: #441355;
+
+    }
+
+    .secondRowTopSpace {
+        margin-top: 0px;
+    }
+
+    .chooseUsParentTop {
+        margin-top: 30px;
+    }
+
+    .cardWidth {
+        width: 33.3%;
+
+    }
+
+    .topSpaceCard{
+        padding-top: 30px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .testimonialTopSapce{
+        padding-top: 0px;
+        margin-top: -60px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .topSpaceCard{
+        padding-top: 0px;
+    }
+    .testimonialTopSapce{
+        padding-top: 0px;
+    }
+    .sectionSpace {
+        padding-top: 100px ;
+        padding-left: 4.4%;
+        padding-right: 4.4%;
+    }
+
+    .chooseUsSubHeading {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 23px;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        margin-bottom: 0px;
+    }
+
+
+
+    .card:hover {
+        background-color: #441355;
+        margin-top: -20px;
+        box-shadow: none;
+
+    }
+
+    .chooseUsInnerCardHeading {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 150%;
+        color: #441355;
+        margin-top: 25px;
+        margin-bottom: 10px;
+
+    }
+
+    .card {
+
+        margin-top: 0px;
+        box-shadow: none;
+
+
+    }
+
+    .cardTopIcon {
+        background-color: #D9D9D9;
+        padding: 0px;
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+
+    }
+
+    .cardParentIcon {
+        margin-top: -30px;
+    }
+
+    .cardWidth {
+        margin-top: 28px;
+
+    }
+
+    .chooseUsInnerCardPara1 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 41px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara2 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 41px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara3 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 41px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara4 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 61px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara5 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara6 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara7 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara8 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara9 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .chooseUsInnerCardPara10 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+        text-align: center;
+    }
+
+    .firstIcon {
+        font-size: 30px;
+        color: #441355;
+
+    }
+
+    .secondRowTopSpace {
+        margin-top: 60px;
+    }
+
+    .chooseUsParentTop {
+        margin-top: 30px;
+    }
+
+    .cardWidth {
+        width: 19%;
+
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
+    .sectionSpace {
+        padding-top: 200px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .chooseUsSubHeading {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: justify;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 50px;
+        margin-bottom: 0px;
+    }
+
+    .cardTopIcon {
+        background-color: #D9D9D9;
+        padding: 0px;
+        height: 98px;
+        width: 98px;
+        border-radius: 100%;
+
+    }
+
+    .cardParentIcon {
+        margin-top: -50px;
+    }
+
+    .firstIcon {
+        font-size: 52px;
+        color: #441355;
+
+    }
+
+    .chooseUsParentTop {
+        margin-top: 60px;
+    }
+
+    .chooseUsInnerCardHeading {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 150%;
+        color: #441355;
+        margin-top: 25px;
+        margin-bottom: 10px;
+
+    }
+
+    .chooseUsInnerCardPara1 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 41px;
+    }
+
+    .chooseUsInnerCardPara2 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 41px;
+    }
+
+    .chooseUsInnerCardPara3 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 61px;
+    }
+
+    .chooseUsInnerCardPara4 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 61px;
+    }
+
+    .chooseUsInnerCardPara5 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+    }
+
+    .chooseUsInnerCardPara6 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+    }
+
+    .chooseUsInnerCardPara7 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+    }
+
+    .chooseUsInnerCardPara8 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+    }
+
+    .chooseUsInnerCardPara9 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+    }
+
+    .chooseUsInnerCardPara10 {
+        color: #4A4A4B;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 38px;
+    }
+
+
+    .cardWidth {
+        width: 19%;
+
+    }
+
+
+    .secondRowTopSpace {
+        margin-top: 120px;
+    }
+
+
+    .card:hover {
+        background-color: #441355;
+        margin-top: -40px;
+
+    }
+
+    
+
+}
