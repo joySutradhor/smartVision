@@ -42,9 +42,21 @@ import handicap from "../../../assets/images/2012/handicap.png";
 import nrc from "../../../assets/images/2011/nrc.png";
 import sos from "../../../assets/images/sos.png";
 import theWorldRank from "../../../assets/images/theWorldRank.png";
+import GaroweMunicipality from "../../../assets/images/GaroweMunicipality.png";
 import worldBankRegional from "../../../assets/images/worldBankRegional.png";
-import MoWDAFA  from "../../../assets/images/MoWDAFA.png";
+// import MoWDAFA from "../../../assets/images/MoWDAFA.png";
+import sosChildren from "../../../assets/images/sosChildren.png";
+import sos8 from "../../../assets/images/sos8.png";
 import galleryOne from "../../../assets/images/mediaImg/galleryOne.jpg";
+import grt from "../../../assets/images/grt.png"
+import education from "../../../assets/images/education.png"
+import coopi from "../../../assets/images/coopi.png"
+import tass from "../../../assets/images/tass.png";
+import MoWDAFA from "../../../assets/images/MoWDAFA.png";
+import odeso from "../../../assets/images/odeso.png";
+import paswe from "../../../assets/images/paswe.png";
+import sobsLogo from "../../../assets/images/sobsLogo.png";
+
 const TrackRecords = () => {
   return (
     <div className="sectionGap">
@@ -59,9 +71,12 @@ const TrackRecords = () => {
             research and learning <br /> (MERL).
           </p>
           <Accordion className="home-accordion" defaultActiveKey="7">
+
+
+            {/* MIDTERM AND ENDLINE EVALUATIONS  */}
             <Accordion.Item eventKey="7">
               <Accordion.Header>
-                <h5 className="acco-tittle">2024 Track Record</h5>
+                <h5 className="acco-tittle">MIDTERM AND ENDLINE EVALUATIONS</h5>
               </Accordion.Header>
 
               <Accordion.Body className="bg-secondary p-0 rounded-2">
@@ -72,361 +87,540 @@ const TrackRecords = () => {
                     <div className="col-6 acco-sub-tittle">
                       Project Description
                     </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
+                    <div className="col-2 acco-sub-tittle client">Client</div>
                   </div>
 
                   <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black ">
                     <div className="col-2 text-primary acco-status">
                       <FaCheck className="CheckBtn" />
                     </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      June 2024
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Oct-Nov,<br />2023
                     </div>
-                    <div className="col-6 acco-dec">
-                      Assessment of Sanitation Marketing in Eastern Africa
+                    <div className="col-6 acco-dec new-dec">
+                      Final evaluation for HOA Project in Heliwa, Kahda, Baidoa,
+                      Balcad and Hudur districts in Somalia.
                     </div>
                     <div className="col-2 ">
-                      <img className="img-fluid " src={unicef} alt="" />
-                      <img className="img-fluid " src={advisory} alt="" />
+                      <img className="img-fluid " src={sosChildren} alt="" />
+
 
                     </div>
                   </div>
 
                   {/* item 2 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      May 2024
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Climate and health vulnerability and adaptation assessment
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={iqarus} alt="" />
-                    </div>
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-
-            {/* ============ accordion 2 =========== */}
-            <Accordion.Item eventKey="8">
-              <Accordion.Header>
-                <h5 className="acco-tittle"> 2023 Track Record</h5>
-              </Accordion.Header>
-              <Accordion.Body className="bg-secondary p-0 rounded-2">
-                <div>
-                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
-                    <div className="col-2 acco-sub-tittle">Status</div>
-                    <div className="col-2 acco-sub-tittle">Date</div>
-                    <div className="col-6 acco-sub-tittle">
-                      Project Description
-                    </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
-                  </div>
-                  {/* item 1 */}
                   <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
                     <div className="col-2 text-primary acco-status">
                       <FaCheck className="CheckBtn" />
                     </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      November, <br />
-                      2023
+                    <div className="col-2 text-primary  new-date ps-md-0 acco-date">
+                      May-Jun<br />2023
                     </div>
-                    <div className="col-6 acco-dec">
-                      National WASH assessment
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={unicef} alt="" />
-                      <img className="img-fluid " src={advisory} alt="" />
-                    </div>
-                  </div>
-
-                  {/* item 2 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      October,
-                      <br />
-                      2023
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Final Evaluation for HoA program
+                    <div className="col-6 new-dec acco-dec">
+                      Endline Evaluation for the project ‘Expanding Civic Space,
+                      Empowering   Youth   and   Women   to   Contribute   to   the
+                      Governance and Development processes in Somaliland’.
                     </div>
                     <div className="col-2 ">
-                      <img className="img-fluid " src={sos} alt="" />
+                      <img className="img-fluid " src={SOYDAVO} alt="" />
                     </div>
                   </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
 
-            {/* ============ accordion 3 =========== */}
-            <Accordion.Item eventKey="9">
-              <Accordion.Header>
-                <h5 className="acco-tittle"> 2022 Track Record</h5>
-              </Accordion.Header>
-              <Accordion.Body className="bg-secondary p-0 rounded-2">
-                <div>
-                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
-                    <div className="col-2 acco-sub-tittle">Status</div>
-                    <div className="col-2 acco-sub-tittle">Date</div>
-                    <div className="col-6 acco-sub-tittle">
-                      Project Description
-                    </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
-                  </div>
-
-                  {/* item 1 */}
+                  {/* item 3*/}
                   <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
                     <div className="col-2 text-primary acco-status">
                       <FaCheck className="CheckBtn" />
                     </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Nov <br />
-                      2022
+                    <div className="col-2 text-primary  new-date ps-md-0 acco-date">
+                      Mar-Apr<br />2023
                     </div>
-                    <div className="col-6 acco-dec">
-                      Midterm evaluation of FFO NEXUS Project
+                    <div className="col-6 new-dec acco-dec">
+                      Endline evaluation for BHA Funded integrated project titled
+                      Sustainable Opportunities for more Accessible Livelihoods and
+                      Integrated Assistance project.
                     </div>
                     <div className="col-2 ">
                       <img className="img-fluid " src={saveTheClidren} alt="" />
                     </div>
                   </div>
 
-                  {/* item 2 */}
+                  {/* item 4*/}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary  new-date ps-md-0 acco-date">
+                      Mar-2022<br />Apr-2023
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Midterm Evaluation for the project FFO NEXUS Project
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={saveTheClidren} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 5*/}
                   <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
                     <div className="col-2 text-primary acco-status">
                       <FaCheck className="CheckBtn" />
                     </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Nov <br /> 2022
+                    <div className="col-2 text-primary  new-date ps-md-0 acco-date">
+                      Jun-Aug<br />2021
                     </div>
-                    <div className="col-6 acco-dec">
-                      Training and Capacity Building (10 LNGOs)
+                    <div className="col-6 new-dec acco-dec">
+                      End line Evaluation of Emergency Cash Transfer and Resilience
+                      Building Project in Sool and Togdheer in Somaliland.
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={candelight} alt="" />
+                    </div>
+                  </div>
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+
+            {/* ============ BASELINE SURVEY =========== */}
+            <Accordion.Item eventKey="8">
+              <Accordion.Header>
+                <h5 className="acco-tittle"> BASELINE SURVEY</h5>
+              </Accordion.Header>
+              <Accordion.Body className="bg-secondary p-0 rounded-2">
+                <div>
+                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
+                    <div className="col-2 acco-sub-tittle">Status</div>
+                    <div className="col-2 acco-sub-tittle">Date</div>
+                    <div className="col-6 acco-sub-tittle">
+                      Project Description
+                    </div>
+                    <div className="col-2 acco-sub-tittle client">Client</div>
+                  </div>
+
+                  {/* item 1 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary  new-date  ps-md-0 acco-date">
+                      Sep-Nov, <br />
+                      2023
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Baseline Evaluation for GFFO/BMZ Chapeau Nexus Project.
+                    </div>
+                    <div className="col-2 ">
+                      {/* <img className="img-fluid " src={unicef} alt="" />
+                      <img className="img-fluid " src={advisory} alt="" /> */}
+                      <div>IRC</div>
+                    </div>
+                  </div>
+
+                  {/* item 2 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black ">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Oct-Nov,<br />2022
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Drought Assessment and Baseline Survey in South West state
+                      of Somalia.
                     </div>
                     <div className="col-2 ">
                       <img className="img-fluid " src={greedo} alt="" />
                     </div>
                   </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
 
-            {/* ============ accordion 2021 =========== */}
-            <Accordion.Item eventKey="10">
-              <Accordion.Header>
-                <h5 className="acco-tittle"> 2021 Track Record</h5>
-              </Accordion.Header>
-              <Accordion.Body className="bg-secondary p-0 rounded-2">
-                <div>
-                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
-                    <div className="col-2 acco-sub-tittle">Status</div>
-                    <div className="col-2 acco-sub-tittle">Date</div>
-                    <div className="col-6 acco-sub-tittle">
-                      Project Description
-                    </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
-                  </div>
-
-                  {/* item 1 */}
+                  {/* item 3 */}
                   <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
                     <div className="col-2 text-primary acco-status">
                       <FaCheck className="CheckBtn" />
                     </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Nov, <br />
-                      2021
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Jan-Apr,<br />2023
                     </div>
-                    <div className="col-6 acco-dec">
-                      Due Diligence (Batch 2 assessed 8 companies) Of REACT
-                      program
+                    <div className="col-6 new-dec acco-dec">
+                      Baseline Assessment for UFSP in Luglow, Kismayo
                     </div>
                     <div className="col-2 ">
-                      {/* <img className="img-fluid " src={theWorlRank} alt="" />
-                        <img className="img-fluid " src={download} alt="" /> */}
-                      <img className="img-fluid " src={advisory} alt="" />
+                      <img className="img-fluid " src={sos8} alt="" />
                     </div>
                   </div>
 
-                  {/* item 2 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      October, <br />
-                      2021
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Wash in schools Assessment
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={saveTheClidren} alt="" />
-                    </div>
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-
-            {/* ============ accordion 2020 =========== */}
-            <Accordion.Item eventKey="11">
-              <Accordion.Header>
-                <h5 className="acco-tittle"> 2020 Track Record</h5>
-              </Accordion.Header>
-              <Accordion.Body className="bg-secondary p-0 rounded-2">
-                <div>
-                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
-                    <div className="col-2 acco-sub-tittle">Status</div>
-                    <div className="col-2 acco-sub-tittle">Date</div>
-                    <div className="col-6 acco-sub-tittle">
-                      Project Description
-                    </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
-                  </div>
-                  {/* item 1 */}
+                  {/* item 4 */}
                   <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
                     <div className="col-2 text-primary acco-status">
                       <FaCheck className="CheckBtn" />
                     </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Dec, <br />2020
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Jul-Aug,<br />2020
                     </div>
-                    <div className="col-6 acco-dec">
-
-                      Endline EvaluationOf  SURP project
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={worldBankRegional} alt="" />
-
-                    </div>
-                  </div>
-
-                  {/* item 2 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Dec, <br /> 2020
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Endline Evaluation Of  SURP’s World Bank project
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={theWorldRank} alt="" />
-
-                    </div>
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-
-            <Accordion.Item eventKey="1">
-              <Accordion.Header>
-                <h5 className="acco-tittle">2019 Track Record</h5>
-              </Accordion.Header>
-              <Accordion.Body className="bg-secondary p-0 rounded-2">
-                <div>
-                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
-                    <div className="col-2 acco-sub-tittle">Status</div>
-                    <div className="col-2 acco-sub-tittle">Date</div>
-                    <div className="col-6 acco-sub-tittle">
-                      Project Description
-                    </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
-                  </div>
-
-                  {/* item 1 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Dec <br /> 2019
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Sanitation Marketing Strategy
+                    <div className="col-6 new-dec acco-dec">
+                      Baseline Survey of Health, Nutrition, WASH, Education and
+                      Child Protection Services and Cash Transfers for Vulnerable
+                      Children  and Families in Somalia/Somaliland (FFO NEXUS)
+                      Project.
                     </div>
                     <div className="col-2 ">
                       <img className="img-fluid " src={saveTheClidren} alt="" />
                     </div>
                   </div>
 
-                  {/* item 2 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Nov <br /> 2019
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Framework for management of Strategic Water points (Earth
-                      Dams)
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={saveTheClidren} alt="" />
-                    </div>
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-
-            {/* ============ accordion 2018 =========== */}
-            <Accordion.Item eventKey="2">
-              <Accordion.Header>
-                <h5 className="acco-tittle"> 2018 Track Record</h5>
-              </Accordion.Header>
-              <Accordion.Body className="bg-secondary p-0 rounded-2">
-                <div>
-                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
-                    <div className="col-2 acco-sub-tittle">Status</div>
-                    <div className="col-2 acco-sub-tittle">Date</div>
-                    <div className="col-6 acco-sub-tittle">
-                      Project Description
-                    </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
-                  </div>
-
-                  {/* item 1 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Dec, <br /> 2018
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Baseline Survey of Response to Drought
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={worldVison} alt="" />
-                    </div>
-                  </div>
-
-                  {/* item 2 */}
+                  {/* item 5 */}
                   <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
                     <div className="col-2 text-primary acco-status">
                       <FaCheck className="CheckBtn" />
                     </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Sep, <br /> 2018
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Oct,<br />2019
                     </div>
-                    <div className="col-6 acco-dec">
-                      Final Evaluation of OFDA Program
+                    <div className="col-6 new-dec acco-dec">
+                      Monitoring   and   Evaluation   Baseline   Survey   for  the
+                      Rehabilitation and Construction of Four Intra-City Roads in
+                      Garowe Municipality for World Bank Road Project
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={theWorldRank} alt="" />
+                      <img className="img-fluid " src={GaroweMunicipality} alt="" />
+                    </div>
+                  </div>
+
+
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+
+
+            {/* ============ THIRD PART MONITORING =========== */}
+            <Accordion.Item eventKey="9">
+              <Accordion.Header>
+                <h5 className="acco-tittle"> THIRD PARTY MONITORING</h5>
+              </Accordion.Header>
+              <Accordion.Body className="bg-secondary p-0 rounded-2">
+                <div>
+                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
+                    <div className="col-2 acco-sub-tittle">Status</div>
+                    <div className="col-2 acco-sub-tittle">Date</div>
+                    <div className="col-6 acco-sub-tittle">
+                      Project Description
+                    </div>
+                    <div className="col-2 acco-sub-tittle client">Client</div>
+                  </div>
+
+                  {/* item 1 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary  new-date  ps-md-0 acco-date">
+                      Oct-Jan, <br />
+                      2022
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Third part monitoring FFO Nexus project.
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={saveTheClidren} alt="" />
+
+                    </div>
+                  </div>
+
+                  {/* item 2 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black ">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      May-Nov,<br />2021
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Third part monitoring, Kismaayo and Goobwayn to verify the
+                      quality and the progress of infrastructure, compliance and
+                      checklist
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={sos8} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 3 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Jul-Aug,<br />2021
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Third part monitoring and verifications for REEVs program in
+                      Sool and Sanaag regions
                     </div>
                     <div className="col-2 ">
                       <img className="img-fluid " src={saveTheClidren} alt="" />
                     </div>
                   </div>
+
+                  {/* item 4 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Sep,<br />2019
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Independent Third-Party Monitoring of Family Strengthening
+                      through Cash Transfer and Child Protection in Baidoa, Somalia
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={saveTheClidren} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 5 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Feb,<br />2018
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Third   Party   Monitoring   and   Verification   of   OFDA   Funded
+                      WHAERIS Project in Berdale and Qansadhere Districts of Bay
+                      Region of Somalia
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={saveTheClidren} alt="" />
+
+                    </div>
+                  </div>
+
+
                 </div>
               </Accordion.Body>
             </Accordion.Item>
+
+
+            {/* ============ ASSESSTMENTS =========== */}
+            <Accordion.Item eventKey="10">
+              <Accordion.Header>
+                <h5 className="acco-tittle"> ASSESSTMENTS </h5>
+              </Accordion.Header>
+              <Accordion.Body className="bg-secondary p-0 rounded-2">
+                <div>
+                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
+                    <div className="col-2 acco-sub-tittle">Status</div>
+                    <div className="col-2 acco-sub-tittle">Date</div>
+                    <div className="col-6 acco-sub-tittle">
+                      Project Description
+                    </div>
+                    <div className="col-2 acco-sub-tittle client">Client</div>
+                  </div>
+
+                  {/* item 1 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary  new-date  ps-md-0 acco-date">
+                      Aug-Sep, <br />
+                      2023
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Local Economic Assessment in Southern regions of Somalia.
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={ilo} alt="" />
+
+                    </div>
+                  </div>
+
+                  {/* item 2 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black ">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Oct-21,<br />Jan-22
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      WASH assessment in schools from 13 regions of Somalia in
+                      December 2021
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={saveTheClidren} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 3 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Apr,<br />2021
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Rapid Needs Assessment conducted at Sool and Sanaag
+                      regions of Somaliland
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={finredcross} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 4 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Dec-20,<br />Feb-21
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Fragility Index and Maturity Model (FIMM) Assessment in 15
+                      Districts of Somalia.
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={diakonia} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 5 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Mar,<br />2019
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Conflict Assessment and Political Feasibility of “Nabad iyo
+                      Amni
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={danishGroup} alt="" />
+
+                    </div>
+                  </div>
+
+
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+
+
+            {/* ============ TRAININGS AND CAPACITY ASSESSTMENT /BUILDING =========== */}
+            <Accordion.Item eventKey="11">
+              <Accordion.Header>
+                <h5 className="acco-tittle"> TRAININGS AND CAPACITY ASSESSTMENT /BUILDING </h5>
+              </Accordion.Header>
+              <Accordion.Body className="bg-secondary p-0 rounded-2">
+                <div>
+                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
+                    <div className="col-2 acco-sub-tittle">Status</div>
+                    <div className="col-2 acco-sub-tittle">Date</div>
+                    <div className="col-6 acco-sub-tittle">
+                      Project Description
+                    </div>
+                    <div className="col-2 acco-sub-tittle client">Client</div>
+                  </div>
+
+                  {/* item 1 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary  new-date  ps-md-0 acco-date">
+                      Nov-Dec, <br />
+                      2022
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Capacity   building   and   training   for   10   partners   and   local
+                      network.   (Gargaar   Rehabilitation   and   Development
+                      Organization).
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={greedo} alt="" />
+
+                    </div>
+                  </div>
+
+                  {/* item 2 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black ">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2012
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Contracted to do small scale business management training in
+                      Bari, Nugaal and Mudug regions of Somalia
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={grt} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 3 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2011
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Advocacy, Leadership and governance training workshop for
+                      IDP leaders in Bari region
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={nrc} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 4 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2011
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Conducted corporal punishment trainings and forums
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={education} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 5 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2011
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Effective communication and counselling for Somaliland MCH
+                      and health posts training in Somaliland
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={coopi} alt="" />
+
+                    </div>
+                  </div>
+
+
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+
           </Accordion>
 
           <div className="mt-5 d-none d-xl-block">
@@ -450,7 +644,7 @@ const TrackRecords = () => {
             {/* ============ accordion 2017 =========== */}
             <Accordion.Item eventKey="51">
               <Accordion.Header>
-                <h5 className="acco-tittle"> 2017 Track Record</h5>
+                <h5 className="acco-tittle"> STRATEGY REVIEW/DEVELOPMENT AND ANNUAL REPORTS AND POLICIES </h5>
               </Accordion.Header>
               <Accordion.Body className="bg-secondary p-0 rounded-2">
                 <div>
@@ -460,7 +654,7 @@ const TrackRecords = () => {
                     <div className="col-6 acco-sub-tittle">
                       Project Description
                     </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
+                    <div className="col-2 acco-sub-tittle client">Client</div>
                   </div>
 
                   {/* item 1 */}
@@ -468,341 +662,477 @@ const TrackRecords = () => {
                     <div className="col-2 text-primary acco-status">
                       <FaCheck className="CheckBtn" />
                     </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Dec, <br />
-                      2017
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Aug-Sep, <br />
+                      2023
                     </div>
-                    <div className="col-6 acco-dec">
-                      Prospective Positive Deviance Analysis
+                    <div className="col-6 new-dec acco-dec">
+                      Develop and review their strategy and policies.
                     </div>
                     <div className="col-2 ">
-                      <img className="img-fluid " src={saveTheClidren} alt="" />
+                      <img className="img-fluid " src={PunsaaWeblogo} alt="" />
                     </div>
                   </div>
+
 
                   {/* item 2 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Nov 2017
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Assessment of Knowledge Attitude and Practice
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={danishGroup} alt="" />
-                    </div>
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-
-            {/* ============ accordion 2016 =========== */}
-            <Accordion.Item eventKey="4">
-              <Accordion.Header>
-                <h5 className="acco-tittle"> 2016 Track Record</h5>
-              </Accordion.Header>
-              <Accordion.Body className="bg-secondary p-0 rounded-2">
-                <div>
-                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
-                    <div className="col-2 acco-sub-tittle">Status</div>
-                    <div className="col-2 acco-sub-tittle">Date</div>
-                    <div className="col-6 acco-sub-tittle">
-                      Project Description
-                    </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
-                  </div>
-
-                  {/* item 1 */}
                   <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
                     <div className="col-2 text-primary acco-status">
                       <FaCheck className="CheckBtn" />
                     </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Dec, <br /> 2016
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Assessment Of Peaceful Coexistence Mechanism for Somali
-                      returnees
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={danishGroup} alt="" />
-                    </div>
-                  </div>
-
-                  {/* item 2 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto  ">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      Nov, <br /> 2016
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Third Part Monitoring of SCI MFA project
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={saveTheClidren} alt="" />
-                    </div>
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-
-            {/* ============ accordion 2015 =========== */}
-            <Accordion.Item eventKey="5">
-              <Accordion.Header>
-                <h5 className="acco-tittle"> 2015 Track Record</h5>
-              </Accordion.Header>
-              <Accordion.Body className="bg-secondary p-0 rounded-2">
-                <div>
-                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
-                    <div className="col-2 acco-sub-tittle">Status</div>
-                    <div className="col-2 acco-sub-tittle">Date</div>
-                    <div className="col-6 acco-sub-tittle">
-                      Project Description
-                    </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
-                  </div>
-
-                  {/* item 1 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      2015
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Final evaluation Of HCAP project
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={finn} alt="" />
-                    </div>
-                  </div>
-
-                  {/* item 2 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      2015
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Tracer study Of TVET program
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={saveTheClidren} alt="" />
-                    </div>
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-
-            {/* ============ accordion 2014 =========== */}
-            <Accordion.Item eventKey="6">
-              <Accordion.Header>
-                <h5 className="acco-tittle"> 2014 Track Record</h5>
-              </Accordion.Header>
-              <Accordion.Body className="bg-secondary p-0 rounded-2">
-                <div>
-                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
-                    <div className="col-2 acco-sub-tittle">Status</div>
-                    <div className="col-2 acco-sub-tittle">Date</div>
-                    <div className="col-6 acco-sub-tittle">
-                      Project Description
-                    </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
-                  </div>
-
-                  {/* item 1 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
                       2014
                     </div>
-                    <div className="col-6 acco-dec">
-                      Final Evaluation of Integrated Basic Education support
+                    <div className="col-6 new-dec acco-dec">
+                      Preparing strategic plan for TASS in Puntland
                     </div>
                     <div className="col-2 ">
-                      <img className="img-fluid " src={saveTheClidren} alt="" />
+                      <img className="img-fluid " src={tass} alt="" />
                     </div>
                   </div>
 
-                  {/* item 2 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
+
+                  {/* item 3 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
                     <div className="col-2 text-primary acco-status">
                       <FaCheck className="CheckBtn" />
                     </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
                       2014
                     </div>
-                    <div className="col-6 acco-dec">Final Evaluation</div>
+                    <div className="col-6 new-dec acco-dec">
+                      Compilation of annual report for TASS and PUNSAA in Puntland
+                    </div>
                     <div className="col-2 ">
-                      <img className="img-fluid " src={nisfoundationn} alt="" />
+                      <img className="img-fluid " src={tass} alt="" />
                     </div>
                   </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
 
-            {/* ============ accordion 2013 =========== */}
-            <Accordion.Item eventKey="7">
-              <Accordion.Header>
-                <h5 className="acco-tittle"> 2013 Track Record</h5>
-              </Accordion.Header>
-              <Accordion.Body className="bg-secondary p-0 rounded-2">
-                <div>
-                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
-                    <div className="col-2 acco-sub-tittle">Status</div>
-                    <div className="col-2 acco-sub-tittle">Date</div>
-                    <div className="col-6 acco-sub-tittle">
-                      Project Description
-                    </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
-                  </div>
 
-                  {/* item 1 */}
+                  {/* item 4 */}
                   <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
                     <div className="col-2 text-primary acco-status">
                       <FaCheck className="CheckBtn" />
                     </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      2013
-                    </div>
-                    <div className="col-6 acco-dec">Evaluation Of ECHO</div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={oxfam} alt="" />
-                    </div>
-                  </div>
-
-                  {/* item 2 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      2013
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Endline Evaluation of Children’s project funded by Care
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={saveTheClidren} alt="" />
-                    </div>
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-
-            {/* ============ accordion 2012 =========== */}
-            <Accordion.Item eventKey="8">
-              <Accordion.Header>
-                <h5 className="acco-tittle"> 2012 Track Record</h5>
-              </Accordion.Header>
-              <Accordion.Body className="bg-secondary p-0 rounded-2">
-                <div>
-                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
-                    <div className="col-2 acco-sub-tittle">Status</div>
-                    <div className="col-2 acco-sub-tittle">Date</div>
-                    <div className="col-6 acco-sub-tittle">
-                      Project Description
-                    </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
-                  </div>
-                  {/* item 1 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
                       2012
                     </div>
-                    <div className="col-6 acco-dec">
-                      Training of Small-scale business management training
-                    </div>
-                    <div className="col-2 ">
-                      {/* <img className="img-fluid " src={oxfam} alt="" /> */}
-                      <div>VETERINAIRES</div>
-                    </div>
-                  </div>
-
-                  {/* item 2 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      2012
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Endline project Evaluation Of FGM/C project
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={candelight} alt="" />
-                    </div>
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-
-            {/* ============ accordion 2011 =========== */}
-            <Accordion.Item eventKey="9">
-              <Accordion.Header>
-                <h5 className="acco-tittle"> 2011 Track Record</h5>
-              </Accordion.Header>
-              <Accordion.Body className="bg-secondary p-0 rounded-2">
-                <div>
-                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
-                    <div className="col-2 acco-sub-tittle">Status</div>
-                    <div className="col-2 acco-sub-tittle">Date</div>
-                    <div className="col-6 acco-sub-tittle">
-                      Project Description
-                    </div>
-                    <div className="col-2 acco-sub-tittle">Client</div>
-                  </div>
-
-                  {/* item 1 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      2011
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Training (Advocacy, Leadership and Governance) Of IDP and
-                      Leadership training
-                    </div>
-                    <div className="col-2 ">
-                      <img className="img-fluid " src={nrc} alt="" />
-                    </div>
-                  </div>
-
-                  {/* item 2 */}
-                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
-                    <div className="col-2 text-primary acco-status">
-                      <FaCheck className="CheckBtn" />
-                    </div>
-                    <div className="col-2 text-primary   ps-md-0 acco-date">
-                      2011
-                    </div>
-                    <div className="col-6 acco-dec">
-                      Moderating Conference Organization
+                    <div className="col-6 new-dec acco-dec">
+                      Contracted to prepare annual report for Ministry of Women
+                      development and family affairs (Mawdafa)
                     </div>
                     <div className="col-2 ">
                       <img className="img-fluid " src={MoWDAFA} alt="" />
-                    
                     </div>
                   </div>
+
+                  {/* item 5 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2013
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Translation of curriculum and training manuals of Gender,
+                      Conflict, Peace building and political participation of women in
+                      Somalia.
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={odeso} alt="" />
+                    </div>
+                  </div>
+
+
                 </div>
               </Accordion.Body>
             </Accordion.Item>
+
+            {/* BUSINESS DEVELOPMENT SERVICES */}
+            <Accordion.Item eventKey="50">
+              <Accordion.Header>
+                <h5 className="acco-tittle"> BUSINESS DEVELOPMENT SERVICES </h5>
+              </Accordion.Header>
+              <Accordion.Body className="bg-secondary p-0 rounded-2">
+                <div>
+                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
+                    <div className="col-2 acco-sub-tittle">Status</div>
+                    <div className="col-2 acco-sub-tittle">Date</div>
+                    <div className="col-6 acco-sub-tittle">
+                      Project Description
+                    </div>
+                    <div className="col-2 acco-sub-tittle client">Client</div>
+                  </div>
+
+                  {/* item 1 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Mar-May, <br />
+                      2022
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Business   Organizational   Capaccity   Assessment   for   8
+                      companies in Somalia
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={ACEF} alt="" />
+                      <img className="img-fluid " src={advisory} alt="" />
+                    </div>
+                  </div>
+
+
+                  {/* item 2*/}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Mar-Apr, <br />
+                      2021
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Business Assessment and review to pre-selected 25 Somali
+                      businesses carried out by Smart Vision in Puntland, Gedo and
+                      Bandir.
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={ACEF} alt="" />
+                      <img className="img-fluid " src={advisory} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 3 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2012
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Feasibility study for Asli Mills company – A Somali company
+                      that produces Natural cosmetics, spices and edible oils such as
+                      sesame, black seed and others in Somaliland
+                    </div>
+                    <div className="col-2 ">
+                      {/* <img className="img-fluid " src={tass} alt="" /> */}
+                    </div>
+                  </div>
+
+
+                  {/* item 4 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2012
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Participatory market systems development study in Galkacyo
+                      in Somalia
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={ilo} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 5 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2012
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Market assessment and Skill training assignment done in
+                      Nugaal and Bari regions
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={handicap} alt="" />
+                    </div>
+                  </div>
+
+
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+
+
+            {/* SPECIAL STUDIES */}
+            <Accordion.Item eventKey="49">
+              <Accordion.Header>
+                <h5 className="acco-tittle"> SPECIAL STUDIES </h5>
+              </Accordion.Header>
+              <Accordion.Body className="bg-secondary p-0 rounded-2">
+                <div>
+                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
+                    <div className="col-2 acco-sub-tittle">Status</div>
+                    <div className="col-2 acco-sub-tittle">Date</div>
+                    <div className="col-6 acco-sub-tittle">
+                      Project Description
+                    </div>
+                    <div className="col-2 acco-sub-tittle client">Client</div>
+                  </div>
+
+                  {/* item 1 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Mar, <br />
+                      2021
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Conflict Analysis and Covid-19; Peace Influence and Women
+                      Protection Needs in Displacement Settings  in Baidoa and
+                      Dollow.
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={danishGroup} alt="" />
+                    </div>
+                  </div>
+
+
+                  {/* item 2*/}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Nov-Mar, <br />
+                      2021
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Conflict Analysis Water Conflicts and Social Cohesion in
+                      Displacement Settings and Conflict and Covid-19 in Baidoa
+                      and Kismayo
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={danishGroup} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 3 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Mar, <br /> 2018
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      TVET- Tracer Study of Waxbarashadu Waa Iftiin-2 (WWI-2)
+                      Project – Puntland.
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={saveTheClidren} alt="" />
+                    </div>
+                  </div>
+
+
+                  {/* item 4 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2013
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Quantitative study on orphans and other vulnerable children in
+                      Puntland state of Somalia
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={paswe} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 5 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2013
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Humantarian Pastoral study in Somalia
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={danishGroup} alt="" />
+                    </div>
+                  </div>
+
+
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+
+
+
+            {/* TRANSILATIONS */}
+            <Accordion.Item eventKey="48">
+              <Accordion.Header>
+                <h5 className="acco-tittle"> TRANSILATIONS </h5>
+              </Accordion.Header>
+              <Accordion.Body className="bg-secondary p-0 rounded-2">
+                <div>
+                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
+                    <div className="col-2 acco-sub-tittle">Status</div>
+                    <div className="col-2 acco-sub-tittle">Date</div>
+                    <div className="col-6 acco-sub-tittle">
+                      Project Description
+                    </div>
+                    <div className="col-2 acco-sub-tittle client">Client</div>
+                  </div>
+
+                  {/* item 1 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2023
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Translated Customs quality control documents
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={sobsLogo} alt="" />
+                    </div>
+                  </div>
+
+
+                  {/* item 2*/}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2011
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Translations of Cash guidelines from English to Somali for Horn
+                      Relief Somalia
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={odeso} alt="" />
+                    </div>
+                  </div>
+
+                  {/* item 3 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2011
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Translation of Disaster Risk Reduction manual for community
+                      members from English to Somali
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={odeso} alt="" />
+                    </div>
+                  </div>
+
+
+                  {/* item 4 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      2011
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Contracted   to   translate   Pastoral   Youth   Leadership   (PYL)
+                      curriculum
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={odeso} alt="" />
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+
+
+            {/* OTHER ASSIGNMENTS/PROJECTS */}
+            <Accordion.Item eventKey="47">
+              <Accordion.Header>
+                <h5 className="acco-tittle"> OTHER ASSIGNMENTS/PROJECTS </h5>
+              </Accordion.Header>
+              <Accordion.Body className="bg-secondary p-0 rounded-2">
+                <div>
+                  <div className="row bg-primary text-white p-2 p-md-3  rounded w-100 mx-auto">
+                    <div className="col-2 acco-sub-tittle">Status</div>
+                    <div className="col-2 acco-sub-tittle">Date</div>
+                    <div className="col-6 acco-sub-tittle">
+                      Project Description
+                    </div>
+                    <div className="col-2 acco-sub-tittle client">Client</div>
+                  </div>
+
+                  {/* item 1 */}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto border-bottom border-2  border-black">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Apr-2024 <br /> Mar-2024
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                      Support in the implementation of the Quality infrastructure for
+                      agricultural production (DQIAP) – component of the Deutsche
+                      Gesellschaft für Internationale Zusammenarbeit (GIZ) Project
+                      ‘Support for Agricultural Production and Quality Assurance
+                      (SPQA) in Somalia.
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={sos8} alt="" />
+                    </div>
+                  </div>
+
+
+                  {/* item 2*/}
+                  <div className="row align-items-center px-md-3 py-4 py-md-5  w-100 mx-auto ">
+                    <div className="col-2 text-primary acco-status">
+                      <FaCheck className="CheckBtn" />
+                    </div>
+                    <div className="col-2 text-primary new-date  ps-md-0 acco-date">
+                      Mar-Dec <br />2021
+                    </div>
+                    <div className="col-6 new-dec acco-dec">
+                    Assist   in   institutionalization,   reorganization,   modernization
+                    and change management in beneficiary institutions.
+                    </div>
+                    <div className="col-2 ">
+                      <img className="img-fluid " src={worldRankSign} alt="" />
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+
+
+
+
           </Accordion>
         </div>
         <Link
