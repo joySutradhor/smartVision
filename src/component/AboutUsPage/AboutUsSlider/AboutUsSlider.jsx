@@ -47,7 +47,7 @@ const AboutUsSlider = () => {
   return (
     <div>
       {/* =================== large devices slider ================== */}
-      <div className="slider-container aboutUsSliderParent mt-3 bootomSpaceAboutUsSlider d-none d-md-block ">
+      <div className="slider-container aboutUsSliderParent mt-3 bootomSpaceAboutUsSlider d-none d-lg-block ">
         <Slider {...settings}>
           <div className=" ">
             <img
@@ -76,7 +76,7 @@ const AboutUsSlider = () => {
       </div>
 
       {/* ================ mobile devices slider ================ */}
-      <div className="slider-container aboutUsSliderParent my-5 d-block d-md-none ">
+      <div className="slider-container aboutUsSliderParent my-5 d-block d-lg-none ">
         <Slider {...settingsMobile}>
           <div className=" ">
             <img
