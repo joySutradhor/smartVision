@@ -18,6 +18,16 @@ import gallerySeven from "../../../assets/images/mediaImg/gallerySeven.jpg";
 import galleryEight from "../../../assets/images/mediaImg/galleryEight.jpg";
 import galleryNine from "../../../assets/images/mediaImg/galleryNine.jpg";
 import galleryTen from "../../../assets/images/mediaImg/gelleryTen.jpg";
+import mediaNew1 from "../../../assets/images/mediaImg/mediaNew1.png";
+import mediaNew2 from "../../../assets/images/mediaImg/mediaNew2.png";
+import mediaNew3 from "../../../assets/images/mediaImg/mediaNew3.png";
+import mediaNew4 from "../../../assets/images/mediaImg/mediaNew4.png";
+import mediaNew5 from "../../../assets/images/mediaImg/mediaNew5.png";
+import mediaNew6 from "../../../assets/images/mediaImg/mediaNew6.png";
+import mediaNew7 from "../../../assets/images/mediaImg/mediaNew7.png";
+import mediaNew8 from "../../../assets/images/mediaImg/mediaNew8.png";
+import mediaNew9 from "../../../assets/images/mediaImg/mediaNew9.png";
+import mediaNew10 from "../../../assets/images/mediaImg/mediaNew10.png";
 
 import Slider from "react-slick";
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
@@ -89,126 +99,70 @@ const PhotoGallery = () => {
       location: "Location Name",
       des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
     },
-    // {
-    //   id: 11,
-    //   img: media3,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 12,
-    //   img: media4,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 13,
-    //   img: media5,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 14,
-    //   img: media6,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 15,
-    //   img: media2,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 16,
-    //   img: galleryOne,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 17,
-    //   img: media9,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 18,
-    //   img: galleryTwo,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 19,
-    //   img: media2,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 20,
-    //   img: media3,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 21,
-    //   img: media4,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 22,
-    //   img: media5,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 23,
-    //   img: media6,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 24,
-    //   img: media9,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 25,
-    //   img: media1,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 26,
-    //   img: media2,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 27,
-    //   img: media3,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 28,
-    //   img: media4,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 29,
-    //   img: media5,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
-    // {
-    //   id: 30,
-    //   img: media6,
-    //   location: "Location Name",
-    //   des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
-    // },
+    {
+      id: 11,
+      img: mediaNew1,
+      location: "Location Name",
+      des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
+    },
+    {
+      id: 12,
+      img: mediaNew2,
+      location: "Location Name",
+      des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
+    },
+    {
+      id: 13,
+      img: mediaNew3,
+      location: "Location Name",
+      des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
+    },
+    {
+      id: 14,
+      img: mediaNew4,
+      location: "Location Name",
+      des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
+    },
+    {
+      id: 15,
+      img: mediaNew5,
+      location: "Location Name",
+      des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
+    },
+    {
+      id: 16,
+      img: mediaNew6,
+      location: "Location Name",
+      des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
+    },
+    {
+      id: 17,
+      img: mediaNew7,
+      location: "Location Name",
+      des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
+    },
+    {
+      id: 18,
+      img: mediaNew8,
+      location: "Location Name",
+      des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
+    },
+    {
+      id: 19,
+      img: mediaNew9,
+      location: "Location Name",
+      des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
+    },
+    {
+      id: 20,
+      img: mediaNew10,
+      location: "Location Name",
+      des: "At Smart Vision, we provide quality Midterm and endline evaluation services.",
+    },
+
+  
+    
+    
   ];
 
   // slider sttings
@@ -232,12 +186,12 @@ const PhotoGallery = () => {
         {photos.map((photo) => (
           <div className="col  d-none d-md-block" key={photo.id}>
 
-            <div className="myCard  bg-secondary ">
+            <div className="myCard  ">
               <img src={photo.img} className="img-fluid photo-gellery-img" alt="..." />
-              <div className="details text-center px-4 py-2">
+              {/* <div className="details text-center px-4 py-2">
                 <h3 className="my-1 my-md-3">{photo.location}</h3>
                 <p className="text-center mb-3">{photo.des}</p>
-              </div>
+              </div> */}
             </div>
 
           </div>
@@ -250,12 +204,12 @@ const PhotoGallery = () => {
           {/* card 1 start */}
           {photos.map((photo) => (
             <div className="px-1" key={photo.id}>
-              <div className="slider-myCard  bg-secondary">
+              <div className="slider-myCard ">
                 <img src={photo.img} className="img-fluid" alt="..." />
-                <div className="slider-details">
+                {/* <div className="slider-details">
                   <h6>{photo.location}</h6>
                   <p className="w-75 mx-auto">{photo.des}</p>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

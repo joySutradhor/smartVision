@@ -63,9 +63,7 @@ const Footer = () => {
             <Link to="/media" className="footer-item">
               Media
             </Link>
-            <Link to="/contact-us" className="footer-item">
-              Contacts
-            </Link>
+           
           </div>
           <div className="col-12 col-md-4 col-lg-2">
             <h6 className="footer-title">Help Center</h6>

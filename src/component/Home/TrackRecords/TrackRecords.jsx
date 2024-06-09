@@ -44,6 +44,7 @@ import sos from "../../../assets/images/sos.png";
 import theWorldRank from "../../../assets/images/theWorldRank.png";
 import worldBankRegional from "../../../assets/images/worldBankRegional.png";
 import MoWDAFA  from "../../../assets/images/MoWDAFA.png";
+import galleryOne from "../../../assets/images/mediaImg/galleryOne.jpg";
 const TrackRecords = () => {
   return (
     <div className="sectionGap">
@@ -442,7 +443,7 @@ const TrackRecords = () => {
         <div className="col-12 col-xl-6 trac-right">
           <img
             className="img-fluid w-100 rounded-2 trac-top-image"
-            src={trackRecords}
+            src={galleryOne}
             alt="trac records"
           />
           <Accordion defaultActiveKey="51">

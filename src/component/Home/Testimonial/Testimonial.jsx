@@ -187,14 +187,14 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="sectionGap containe">
+    <div className="sectionGap ">
       <div className="pb-lg-4">
         <div className="text-center border-bottom border-3">
           <h1 className="pb-0 pb-md-3">Testimonial</h1>
-          <div className="my-md-5 my-4 d-flex align-items-center">
-            <span className="w-75  border-bottom border-3"></span>
+          <div className="my-md-5 my-4 d-flex align-items-center w-100">
+            <span className="w-100  border-bottom border-3"></span>
             <img className="mx-3 quote" src={quote} alt="quote" />
-            <span className="w-75  border-bottom border-3"></span>
+            <span className="w-100  border-bottom border-3"></span>
           </div>
 
           <div className="d-none d-sm-block">

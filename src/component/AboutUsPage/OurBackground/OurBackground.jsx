@@ -1,4 +1,5 @@
-import ourBackgroundImg from "../../../assets/images/ourBackground.png";
+
+import mediaNew4 from "../../../assets/images/mediaImg/mediaNew4.png";
 import "./OurBackground.css";
 
 const OurBackground = () => {
@@ -9,7 +10,7 @@ const OurBackground = () => {
           <h1 className="d-block d-md-none pb-3 pb-md-4">Our Background</h1>
           <img
             className="aboutOurBackgoundImg img-fluid"
-            src={ourBackgroundImg}
+            src={mediaNew4}
             alt="aboutSectionRightImg"
           />
         </div>

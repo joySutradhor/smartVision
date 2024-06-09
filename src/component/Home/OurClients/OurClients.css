@@ -1,8 +1,4 @@
-.client-slider-image{
-    width: 180px;
-    height: 180px;
-    margin: auto;
-}
+
 
 @media only screen and (max-width:600px) {
     .ourClientTopGap{
@@ -26,6 +22,13 @@
         z-index: 50;
         height: 50px;
         
+    }
+
+    .client-slider-image{
+        width: 180px;
+        height: 180px;
+        margin: auto;
+        object-fit: contain ;
     }
  
 
@@ -56,6 +59,12 @@
         z-index: 50;
         height: 80px;
         
+    }
+    .client-slider-image{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        object-fit: contain ;
     }
     
 } 

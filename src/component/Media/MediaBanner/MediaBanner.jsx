@@ -1,5 +1,5 @@
 import React from "react";
-import mediaBanner from "../../../assets/images/mediaBanner.png";
+import mediaNew2 from "../../../assets/images/mediaImg/mediaNew2.png";
 
 const MediaBanner = () => {
   return (
@@ -22,7 +22,7 @@ const MediaBanner = () => {
             <h1 className="d-md-none d-block aboutTitleMobile mt-4">Media</h1>
             <img
               className="img-fluid small-device"
-              src={mediaBanner}
+              src={mediaNew2}
               alt="aboutSectionRightImg"
             />
           </div>
